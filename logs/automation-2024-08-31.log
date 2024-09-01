@@ -1,0 +1,46 @@
+2024-08-31 19:19:03 [main] INFO  testCases.TC001_AccountRegisterTest - Validating Expected Message
+2024-08-31 19:19:03 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Finished TC001_AccountRegistratiomTest ****
+2024-08-31 19:22:05 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-08-31 19:22:06 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-08-31 19:22:07 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-08-31 19:22:07 [main] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-08-31 19:22:11 [main] INFO  testCases.TC001_AccountRegisterTest - Validating Expected Message
+2024-08-31 19:22:11 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Finished TC001_AccountRegistratiomTest ****
+2024-08-31 19:24:17 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-08-31 19:24:17 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-08-31 19:24:18 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-08-31 19:24:18 [main] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-08-31 19:24:23 [main] INFO  testCases.TC001_AccountRegisterTest - Validating Expected Message
+2024-08-31 19:24:23 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Finished TC001_AccountRegistratiomTest ****
+2024-08-31 21:15:59 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-08-31 21:15:59 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-08-31 21:16:01 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-08-31 21:16:01 [main] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-08-31 21:16:05 [main] INFO  testCases.TC001_AccountRegisterTest - Validating Expected Message
+2024-08-31 21:16:05 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Finished TC001_AccountRegistratiomTest ****
+2024-08-31 21:28:35 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-08-31 21:28:35 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-08-31 21:28:36 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-08-31 21:28:36 [main] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-08-31 21:28:40 [main] INFO  testCases.TC001_AccountRegisterTest - Validating Expected Message
+2024-08-31 21:28:40 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Finished TC001_AccountRegistratiomTest ****
+2024-08-31 21:40:55 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-08-31 21:40:55 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-08-31 21:40:56 [main] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-08-31 21:40:56 [main] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-08-31 21:41:00 [main] INFO  testCases.TC001_AccountRegisterTest - Validating Expected Message
+2024-08-31 21:41:00 [main] INFO  testCases.TC001_AccountRegisterTest - ***** Finished TC001_AccountRegistratiomTest ****
+2024-08-31 21:43:37 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-08-31 21:43:37 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-08-31 21:43:38 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-08-31 21:43:38 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-08-31 21:43:42 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Validating Expected Message
+2024-08-31 21:43:42 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - ***** Finished TC001_AccountRegistratiomTest ****
+2024-08-31 21:47:45 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-08-31 21:47:45 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-08-31 21:47:46 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-08-31 21:47:46 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-08-31 21:47:49 [TestNG-tests-2] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-08-31 21:47:49 [TestNG-tests-2] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-08-31 21:47:50 [TestNG-tests-2] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-08-31 21:47:50 [TestNG-tests-2] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details

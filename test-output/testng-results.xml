@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-01T18:31:39 EDT" name=" openCart Suite" finished-at="2024-09-01T18:31:48 EDT" duration-ms="9612">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC001_AccountRegisterTest.verify_AccountRegister()[pri:0, instance:testCases.TC001_AccountRegisterTest@2f9f7dcf]" name="verify_AccountRegister" class="testCases.TC001_AccountRegisterTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-09-01T18:31:39 EDT" name="Test" finished-at="2024-09-01T18:31:48 EDT" duration-ms="9612">
+      <class name="testCases.TC001_AccountRegisterTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegisterTest@2f9f7dcf]" started-at="2024-09-01T18:31:39 EDT" name="setUp" finished-at="2024-09-01T18:31:43 EDT" duration-ms="3762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_AccountRegister()[pri:0, instance:testCases.TC001_AccountRegisterTest@2f9f7dcf]" started-at="2024-09-01T18:31:43 EDT" name="verify_AccountRegister" finished-at="2024-09-01T18:31:48 EDT" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AccountRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegisterTest@2f9f7dcf]" started-at="2024-09-01T18:31:48 EDT" name="tearDown" finished-at="2024-09-01T18:31:48 EDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!--  openCart Suite -->
+</testng-results>
