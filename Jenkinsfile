@@ -6,12 +6,16 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
+                echo 'Starting Checkout...'
                 git 'https://github.com/richmondAG/OpencartV2.git'
+                echo 'Checkout completed.'
             }
         }
         stage('Build') {
             steps {
+                echo 'Starting Build...'
                 sh 'mvn clean install'
+                echo 'Build completed.'
             }
         }
         stage('Test') {
