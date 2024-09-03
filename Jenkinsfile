@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-        choice(name: 'TEST_SUITE', choices: ['pom.xml'], description: 'Select the TestNG XML suite to run')
+        choice(name: 'TEST_SUITE', choices: ['testng.xml'], description: 'Select the TestNG XML suite to run')
     }
     stages {
         stage('Checkout') {
