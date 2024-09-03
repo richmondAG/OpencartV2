@@ -1,0 +1,46 @@
+2024-09-02 17:15:06 [TestNG-tests-2] ERROR testCases.TC001_AccountRegisterTest - Failed to initialize RemoteWebDriver.
+2024-09-02 17:15:06 [TestNG-tests-2] ERROR testCases.TC001_AccountRegisterTest - Error during WebDriver initialization: 
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "testCases.BaseClass.driver" is null
+	at testCases.BaseClass.setUp(BaseClass.java:86) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-09-02 17:15:09 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-02 17:15:09 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-09-02 17:15:10 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-09-02 17:15:10 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-09-02 17:15:14 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Validating Expected Message
+2024-09-02 17:15:14 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - ***** Finished TC001_AccountRegistratiomTest ****
+2024-09-02 17:20:12 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-02 17:20:12 [TestNG-tests-2] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-02 17:20:13 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-09-02 17:20:13 [TestNG-tests-2] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-09-02 17:20:23 [TestNG-tests-1] ERROR testCases.TC001_AccountRegisterTest - Test failed
+2024-09-02 17:20:33 [TestNG-tests-2] ERROR testCases.TC001_AccountRegisterTest - Test failed
+2024-09-02 17:22:02 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-02 17:22:02 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-09-02 17:22:03 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-09-02 17:22:03 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details
+2024-09-02 17:22:04 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***** TC002 LoginTest *****
+2024-09-02 17:22:05 [TestNG-tests-1] ERROR testCases.TC001_AccountRegisterTest - Test failed
+2024-09-02 17:22:05 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Entered Costumer Email, Password
+2024-09-02 17:28:21 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-02 17:28:22 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on MyAccount Link
+2024-09-02 17:28:23 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Clicked on Register Link
+2024-09-02 17:28:23 [TestNG-tests-1] INFO  testCases.TC001_AccountRegisterTest - Provided Account Creation Details

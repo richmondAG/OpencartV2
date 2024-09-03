@@ -14,23 +14,29 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ConfigReader;
 
 public class BaseClass extends ConfigReader {
 
 	public static WebDriver driver;
+	//FirefoxOptions firefoxoptions= new FirefoxOptions();
+	//ChromeOptions chromeoptions= new ChromeOptions();
 	public Logger logger;
 	//String browser;
 	
 	@SuppressWarnings("deprecation")
-	@BeforeClass(groups="Sanity")
+	@BeforeClass
 	@Parameters({"browser", "os"})
 	public void setUp(String browser, String os) {
 		logger=LogManager.getLogger(this.getClass());
@@ -75,11 +81,11 @@ public class BaseClass extends ConfigReader {
 		else if (getproperty("execution_env").equalsIgnoreCase("local")) {
 			
 			switch(browser.toLowerCase()) {
-			case "chrome":
-				driver= new ChromeDriver();
-				break;
-			case "firefox": 
+			case "firefox":
 				driver= new FirefoxDriver();
+				break;
+			case "chrome": 
+				driver= new ChromeDriver();
 				break;
 				default :
 					throw new IllegalArgumentException("Invalid browser name");	
@@ -92,7 +98,7 @@ public class BaseClass extends ConfigReader {
         }
 		
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		driver.get(getproperty("url"));
 		driver.manage().window().maximize();
 	}
@@ -108,12 +114,13 @@ public class BaseClass extends ConfigReader {
 	
 		
 	
-	@AfterClass(groups="Sanity")
+	@AfterClass
 	public void tearDown() {
 		if (driver != null) {
 			driver.quit();
 		}
 	}
+
 
 
 	public String captureScreen(String tname) throws IOException {

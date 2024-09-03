@@ -11,7 +11,7 @@ public class TC001_AccountRegisterTest extends BaseClass{
 	RandomData rd= new RandomData();
 	
 
-	@Test(groups="Sanity")
+	@Test
 	public void verify_AccountRegister(){
 		logger.info("***** Starting TC001_AccountRegistrationTest *****");
 		

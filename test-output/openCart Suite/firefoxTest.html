@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 01 17:42:41 EDT 2024</td>
+<td>Started on:</td><td>Tue Sep 03 17:48:14 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>181 seconds (181538 ms)</td>
+<tr><td>Total time:</td><td>182 seconds (182104 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,18 +77,14 @@ function toggleAllBoxes() {
 <tr>
 <td title='testCases.TC001_AccountRegisterTest.setUp()'><b>setUp</b><br>Test class: testCases.TC001_AccountRegisterTest<br>Parameters: firefox, windows</td>
 <td><div><pre>java.lang.RuntimeException: WebDriver setup failed
-	at testCases.BaseClass.setUp(BaseClass.java:100)
+	at testCases.BaseClass.setUp(BaseClass.java:107)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
 Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;testCases.BaseClass.driver&quot; is null
-	at testCases.BaseClass.setUp(BaseClass.java:93)
-	... 19 more
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1520280810", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1520280810'><pre>java.lang.RuntimeException: WebDriver setup failed
 	at testCases.BaseClass.setUp(BaseClass.java:100)
+	... 24 more
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1578587450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1578587450'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at testCases.BaseClass.setUp(BaseClass.java:107)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -101,19 +97,24 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.seleni
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;testCases.BaseClass.driver&quot; is null
-	at testCases.BaseClass.setUp(BaseClass.java:93)
-	... 19 more
+	at testCases.BaseClass.setUp(BaseClass.java:100)
+	... 24 more
 </pre></div></td>
 <td>181</td>
-<td>testCases.TC001_AccountRegisterTest@77888435</td></tr>
+<td>testCases.TC001_AccountRegisterTest@313ac989</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -125,8 +126,8 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.seleni
 <tr>
 <td title='testCases.TC001_AccountRegisterTest.tearDown()'><b>tearDown</b><br>Test class: testCases.TC001_AccountRegisterTest</td>
 <td></td>
-<td>-1725227142</td>
-<td>testCases.TC001_AccountRegisterTest@77888435</td></tr>
+<td>-1725400277</td>
+<td>testCases.TC001_AccountRegisterTest@313ac989</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -138,18 +139,14 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.seleni
 <tr>
 <td title='testCases.TC001_AccountRegisterTest.verify_AccountRegister()'><b>verify_AccountRegister</b><br>Test class: testCases.TC001_AccountRegisterTest</td>
 <td><div><pre>java.lang.RuntimeException: WebDriver setup failed
-	at testCases.BaseClass.setUp(BaseClass.java:100)
+	at testCases.BaseClass.setUp(BaseClass.java:107)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
 Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;testCases.BaseClass.driver&quot; is null
-	at testCases.BaseClass.setUp(BaseClass.java:93)
-	... 19 more
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1087975979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1087975979'><pre>java.lang.RuntimeException: WebDriver setup failed
 	at testCases.BaseClass.setUp(BaseClass.java:100)
+	... 24 more
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1332208607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1332208607'><pre>java.lang.RuntimeException: WebDriver setup failed
+	at testCases.BaseClass.setUp(BaseClass.java:107)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -162,19 +159,24 @@ Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.seleni
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;testCases.BaseClass.driver&quot; is null
-	at testCases.BaseClass.setUp(BaseClass.java:93)
-	... 19 more
+	at testCases.BaseClass.setUp(BaseClass.java:100)
+	... 24 more
 </pre></div></td>
 <td>0</td>
-<td>testCases.TC001_AccountRegisterTest@77888435</td></tr>
+<td>testCases.TC001_AccountRegisterTest@313ac989</td></tr>
 </table><p>
 </body>
 </html>

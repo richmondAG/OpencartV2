@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-01T18:34:04 EDT" name=" openCart Suite" finished-at="2024-09-01T18:34:12 EDT" duration-ms="8217">
+  <suite started-at="2024-09-02T17:06:21 EDT" name=" openCart Suite" finished-at="2024-09-02T17:06:31 EDT" duration-ms="9940">
     <groups>
       <group name="Sanity">
-        <method signature="TC001_AccountRegisterTest.verify_AccountRegister()[pri:0, instance:testCases.TC001_AccountRegisterTest@4fce136b]" name="verify_AccountRegister" class="testCases.TC001_AccountRegisterTest"/>
+        <method signature="TC001_AccountRegisterTest.verify_AccountRegister()[pri:0, instance:testCases.TC001_AccountRegisterTest@3e821657]" name="verify_AccountRegister" class="testCases.TC001_AccountRegisterTest"/>
       </group> <!-- Sanity -->
     </groups>
-    <test started-at="2024-09-01T18:34:04 EDT" name="Test" finished-at="2024-09-01T18:34:12 EDT" duration-ms="8217">
+    <test started-at="2024-09-02T17:06:21 EDT" name="Test" finished-at="2024-09-02T17:06:31 EDT" duration-ms="9940">
       <class name="testCases.TC001_AccountRegisterTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegisterTest@4fce136b]" started-at="2024-09-01T18:34:04 EDT" name="setUp" finished-at="2024-09-01T18:34:07 EDT" duration-ms="2677" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegisterTest@3e821657]" started-at="2024-09-02T17:06:22 EDT" name="setUp" finished-at="2024-09-02T17:06:25 EDT" duration-ms="3220" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_AccountRegister()[pri:0, instance:testCases.TC001_AccountRegisterTest@4fce136b]" started-at="2024-09-01T18:34:07 EDT" name="verify_AccountRegister" finished-at="2024-09-01T18:34:12 EDT" duration-ms="5086" status="PASS">
+        <test-method signature="verify_AccountRegister()[pri:0, instance:testCases.TC001_AccountRegisterTest@3e821657]" started-at="2024-09-02T17:06:25 EDT" name="verify_AccountRegister" finished-at="2024-09-02T17:06:31 EDT" duration-ms="6171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_AccountRegister -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegisterTest@4fce136b]" started-at="2024-09-01T18:34:12 EDT" name="tearDown" finished-at="2024-09-01T18:34:12 EDT" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegisterTest@3e821657]" started-at="2024-09-02T17:06:31 EDT" name="tearDown" finished-at="2024-09-02T17:06:31 EDT" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
