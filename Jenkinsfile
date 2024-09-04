@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-        choice(name: 'OPENCART_TEST_SUITE', choices: ['dataDriven.xml','testng.xml'], description: 'Select the TestNG XML suite to run')
+        choice(name: 'OPENCART_TEST_SUITE', choices: ['dataDriven.xml','testng.xml'], description: 'Select suite to run')
     }
     stages {
         stage('Checkout') {
