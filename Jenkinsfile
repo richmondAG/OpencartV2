@@ -11,6 +11,13 @@ pipeline {
                 echo 'Checkout completed.'
             }
         }
+        stage('Build') {
+            steps {
+                echo 'Starting Build...'
+                sh 'mvn clean install'
+                echo 'Build completed.'
+            }
+        }
         stage('Test') {
             steps {
                 script {
