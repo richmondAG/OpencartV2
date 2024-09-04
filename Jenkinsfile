@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-        choice(name: 'TEST_SUITE', choices: ['dataDriven.xml'], description: 'Select the TestNG XML suite to run')
+        choice(name: 'TEST_SUITE', choices: ['dataDriven.xml','testng.xml'], description: 'Select the TestNG XML suite to run')
     }
     stages {
         stage('Checkout') {
@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     def suiteFile = params.TEST_SUITE
-                    bat "sed -i \"s#<suiteXmlFile>.*</suiteXmlFile>#<suiteXmlFile>${suiteFile}</suiteXmlFile>#\" src/test/resources/dataDriven.xml"
+                    bat "mvn test -DsuiteXmlFile=OpencartV2//${suiteFile}"
                 }
             }
         }
