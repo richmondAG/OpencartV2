@@ -38,7 +38,7 @@ public class BaseClass extends ConfigReader {
 	@SuppressWarnings("deprecation")
 	@BeforeClass
 	@Parameters({"browser", "os"})
-	public void setUp(@Optional("chrome") String browser, @Optional("windows") String os)
+	public void setUp(@Optional("chrome") String browser, @Optional("windows") String os){
 		logger=LogManager.getLogger(this.getClass());
 		loadProperties();
 		//browser=getproperty("browser");
