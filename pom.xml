@@ -8,6 +8,12 @@
   <artifactId>OpencartV2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+  <maven.complier.source>17</maven.complier.source>
+  <maven.complier.target>17</maven.complier.target>
+  <suiteFile>testng.xml</suiteFile>
+  </properties>
+  
 
   <build>
     <!-- To define the plugin version in your parent POM -->
@@ -28,7 +34,7 @@
           <version>3.5.0</version>
           <configuration>
           <suiteXmlFiles>
-          <suiteXmlFile>testng.xml</suiteXmlFile>>
+          <suiteXmlFile>${suiteFile}</suiteXmlFile>>
           </suiteXmlFiles>
         </configuration>
         </plugin>
