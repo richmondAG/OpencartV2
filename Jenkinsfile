@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     def suiteFile = params.TEST_SUITE
-                    bat "mvn test -DsuiteXmlFile=OpencartV2//${suiteFile}"
+                    bat "mvn test -DsuiteFile=${OPENCART_TEST_SUITE}"
                 }
             }
         }
