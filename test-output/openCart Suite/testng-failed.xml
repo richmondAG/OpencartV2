@@ -17,4 +17,17 @@
       </class> <!-- testCases.TC001_AccountRegisterTest -->
     </classes>
   </test> <!-- firefoxTest(failed) -->
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC001_AccountRegisterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verify_AccountRegister"/>
+        </methods>
+      </class> <!-- testCases.TC001_AccountRegisterTest -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
 </suite> <!-- Failed suite [openCart Suite] -->
