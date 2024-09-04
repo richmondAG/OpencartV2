@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Starting Build...'
-                sh 'mvn clean install'
+                bat 'mvn clean install'
                 echo 'Build completed.'
             }
         }
@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     def suiteFile = params.TEST_SUITE
-                    sh "mvn test -DsuiteXmlFile=OpencartV2/${suiteFile}"
+                    bat "mvn test -DsuiteXmlFile=OpencartV2\\${suiteFile}"
                 }
             }
         }
