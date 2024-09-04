@@ -33,6 +33,13 @@ pipeline {
                 }
             }
         }
+        stage('Deploy') {
+            steps {
+                echo 'Starting Deployment...'
+                // Insert your deployment commands here
+                echo 'Deployment completed.'
+            }
+        }
     }
     post {
         always {
